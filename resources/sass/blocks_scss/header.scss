@@ -1,0 +1,618 @@
+/***************************** HEADER ***********************/
+.header{
+
+
+    /****************************** Header Block Contacts ***********************************/
+    .header-block-contacts{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #F6F7ED;
+        /******** Header Logo *********/
+        .logo{
+            position: relative;
+            left: 2px;
+            text-decoration: none;
+            display: block;
+            &:hover{
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .img-logo{
+
+            }
+        }
+        /******** End Header Logo *********/
+
+        /******** Header Slogan *********/
+        .header-slogan{
+            font-family: Montserrat;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            position: relative;
+            right: 48px;
+            top: 12px;
+            align-items: center;
+            color: #A9A99A;
+        }
+        /******** End Header Slogan *********/
+
+
+        /******** Header Email *********/
+        .header-email{
+            position: relative;
+            left: 32px;
+            top: 10px;
+            .header-link-email{
+                &:before{
+                    content: "";
+                    background: url('/img/tpl_img/icon_email.png') no-repeat;
+                    width: 18px;
+                    height: 12px;
+                    display: block;
+                    position: absolute;
+                    left: -29px;
+                }
+                position: relative;
+                font-family: Montserrat;
+                font-weight: 500;
+                text-decoration: underline;
+                font-size: 14px;
+                line-height: 17px;
+                display: flex;
+                align-items: center;
+                color: #A9A99A;
+                &:hover{
+                    color: #333333;
+                    text-decoration: none;
+                    &:before{
+                        background: url('/img/tpl_img/icon_email_hover.png') no-repeat;
+                    }
+                }
+            }
+
+        }
+        /******** End Header Email *********/
+
+
+        /******** Header Phone *********/
+        .header-phone{
+            position: relative;
+            left: 12px;
+            top: 10px;
+
+            .header-link-phone.header-link-phone1{
+
+            }
+            .header-link-phone.header-link-phone2{
+                position: relative;
+                top: 0.2rem;
+            }
+
+            .header-link-phone{
+
+                &:before{
+                    content: "";
+                    background: url('/img/tpl_img/icon_phone.png') no-repeat;
+                    width: 16px;
+                    height: 16px;
+                    display: block;
+                    position: absolute;
+                    left: -23px;
+                    top: 0px;
+                }
+                text-decoration: none;
+                position: relative;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                color: #333333;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+
+        }
+        /******** End Header Phone *********/
+
+
+        /******** Header Callback *********/
+        .header-callback{
+            position: relative;
+            top: -1px;
+            right: 18px;
+            .button-callback{
+                background: linear-gradient(180deg, #94DA4F 0%, #68A22E 100%);
+                box-shadow: 0px 10px 20px rgba(85, 134, 35, 0.5);
+                border-radius: 50px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #FFFFFF;
+                width: 194px;
+                height: 40px;
+                text-decoration: none;
+                &:hover{
+                    background: linear-gradient(180deg, #B5F972 0%, #74B039 100%);
+                    box-shadow: 0px 5px 10px rgba(85, 134, 35, 0.5);
+                    text-decoration: none;
+                }
+            }
+
+        }
+        /******** End Header Callback *********/
+
+
+    }
+    /***************************** End Header Block Contacts **************************************/
+
+
+
+
+    /******************************* Header Block Menu ************************************/
+    .container-navigation {
+        padding-top: 18px;
+        height: 54px;
+        .header-block-menu {
+
+
+            @import "dropdown_menu";
+
+
+            /************* Block Menu Main *************/
+            .block-menu-main {
+                margin-left: 56px;
+                position: relative;
+                bottom: 4px;
+
+                .list-menu-main {
+                    list-style: none;
+                    padding-left: 0px;
+                    list-style: none;
+
+                    .item-list-menu-main.active {
+                        .link-item-list-menu-main {
+                            color: #68A22E;
+                            text-decoration: underline;
+                        }
+                    }
+
+                    .item-list-menu-main {
+                        display: inline-block;
+
+                        &:not(:first-child) {
+                            margin-left: 64px;
+                        }
+
+                        .link-item-list-menu-main {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 12px;
+                            line-height: 15px;
+                            display: flex;
+                            align-items: center;
+                            text-transform: uppercase;
+                            color: #333333;
+                            text-decoration: none;
+
+                            &:hover {
+                                color: #68A22E;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+            /************* End Block Menu Main *************/
+
+
+            /************** Block Search **************/
+            .block-search {
+                position: relative;
+                left: 6px;
+                bottom: 1px;
+
+                .search-catalog {
+                    outline: none;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 300;
+                    width: 200px;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #333333;
+                    border: none;
+                    background: url('/img/tpl_img/search.png') 0% 50% no-repeat;
+                    -webkit-appearance: textfield;
+                    -webkit-box-sizing: content-box;
+                    -webkit-transition: all .5s;
+                    -moz-transition: all .5s;
+                    transition: all .5s;
+                    &:focus{
+                        width: 225px;
+                        padding-left: 25px;
+                    }
+
+                    &::placeholder {
+
+                        text-align: center;
+                    }
+
+                }
+            }
+
+            /************** End Block Search **************/
+        }
+    }
+    /******** End Header Block Menu **********/
+
+
+    /******** Header Block Slider **********/
+    .header-block-slider{
+        background: url('/img/tpl_img/header_bg_banner.png') center center no-repeat;
+        height: 625px;
+        position: relative;
+        background-size: cover;
+        /*********************** Leftblock Header Block Slider *****************************/
+        .leftblock-header-block-slider{
+            margin-top: 116px;
+            margin-left: 2px;
+            /********* Block Header H1 **********/
+            .block-header-h1{
+                position: relative;
+                left: 0px;
+                h1{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 44px;
+                    line-height: 115%;
+                    align-items: center;
+                    color: #FFFFFF;
+                }
+
+                h2{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 120%;
+                    align-items: center;
+                    color: #F2F2F2;
+                    position: relative;
+                    bottom: 6px;
+                    &:after{
+                        position: absolute;
+                        content: "";
+                        display: block;
+                        background: #68A22E;
+                        height: 4px;
+                        width: 111px;
+                        bottom: -26px;
+                        left: 3px;
+                    }
+                }
+
+            }
+            /********* End Block Header H1 **********/
+
+            /********* Block Shord Desc Company **********/
+            .block-short-desc-company{
+                margin-top: 45px;
+                position: relative;
+                margin-left: 46px;
+                p{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+                    align-items: center;
+                    color: #E0E0E0;
+                }
+            }
+            /********* End Block Shord Desc Company **********/
+
+            /********* Block Benefits Company **********/
+            .block-benefits-company{
+                margin-top: 46px;
+                margin-left: 64px;
+                .box-benefits{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: #F2F2F2;
+                    position: relative;
+                }
+
+
+                .box-benefits1{
+
+                    &:before{
+                        left: -80px;
+                        top: -7px;
+                        content: "";
+                        display: block;
+                        background: url('/img/tpl_img/benefits_icon_head_1.png') no-repeat;
+                        width: 59px;
+                        height: 59px;
+                        position: absolute;
+                    }
+                }
+
+                .box-benefits2{
+                    left: -61px;
+                    &:before{
+                        left: -81px;
+                        top: -6px;
+                        content: "";
+                        display: block;
+                        background: url('/img/tpl_img/benefits_icon_head_2.png') no-repeat;
+                        width: 59px;
+                        height: 59px;
+                        position: absolute;
+                    }
+                }
+
+
+            }
+            /********* End Block Benefits Company **********/
+
+        }
+        /*********************** End Leftblock Header Block Slider *****************************/
+
+
+
+
+        /*********************** Rightblock Header Block Slider *****************************/
+        .righthblock-header-block-slider{
+            padding-top: 79px;
+
+            /******** Block List Benefits ***********/
+            .block-list-benefits{
+                position: relative;
+
+                .box-benefits{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 120%;
+                    color: #F2F2F2;
+                    position: absolute;
+                }
+                .box-benefits1{
+                    left: 87px;
+                    &:before{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: url('/img/tpl_img/icon_benefits_circle.png') no-repeat;
+                        width: 20px;
+                        height: 20px;
+                        left: -26px;
+                        top: -24px;
+                    }
+                }
+                .box-benefits2{
+                    left: -37px;
+                    top: 104px;
+                    &:before{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: url('/img/tpl_img/icon_benefits_circle.png') no-repeat;
+                        width: 20px;
+                        height: 20px;
+                        left: -30px;
+                        top: -18px;
+                    }
+                }
+                .box-benefits3{
+                    left: -129px;
+                    top: 238px;
+                    &:before{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: url('/img/tpl_img/icon_benefits_circle.png') no-repeat;
+                        width: 20px;
+                        height: 20px;
+                        left: -30px;
+                        top: -22px;
+                    }
+                }
+            }
+            /******** End Block List Benefits ***********/
+
+
+        }
+        /*********************** End Rightblock Header Block Slider *****************************/
+
+
+
+        /*********************** Block Form Selection Spare Parts *****************************/
+        .wrapper-block-form-selection-spare-parts {
+            position: relative;
+            bottom: -68px;
+            margin-left: 15px;
+            .block-form-selection-spare-parts{
+                padding-top: 30px;
+                background: #F2F2F2;
+                border: 10px solid #FFFFFF;
+                box-sizing: border-box;
+                box-shadow: 0px 30px 70px rgba(0, 0, 0, 0.11);
+                border-radius: 5px;
+                position: relative;
+                width: 1218px;
+                height: 208px;
+                background: url("/img/tpl_img/bg_form_search_spart.png") 95% -60% #F2F2F2 no-repeat;
+
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/img_form_selection_parts.png') no-repeat;
+                    width: 330px;
+                    height: 262px;
+                    left: -54px;
+                    top: -2px;
+                }
+
+
+                .message-form-selection-spare-parts{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    text-align: center;
+                    color: #959595;
+                }
+
+
+                .header-form-selection-spare-parts{
+                    position: relative;
+                    left: -13px;
+                    /***** Top Row Form *****/
+                    .top-row-form{
+                        margin: 0 auto;
+                        text-align: center;
+                        position: relative;
+
+                        .bold-word{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-size: 30px;
+                            line-height: 120%;
+                            color: #4F4F4F;
+                            font-weight: bold;
+                            color: #333333;
+                        }
+                        .norm-word{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-size: 26px;
+                            position: relative;
+                            left: 5px;
+                            color: #4F4F4F;
+                        }
+
+                    }
+                    /***** End Top Row Form *****/
+
+
+                    /***** Bottom Row Form *****/
+                    .bottom-row-form{
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 140%;
+                        color: #959595;
+                        width: 565px;
+                        margin: 0 auto;
+                        position: relative;
+                        bottom: 2px;
+                    }
+                    /***** End Bottom Row Form *****/
+                }
+
+
+                .form-selection-spare-parts{
+                    position: relative;
+                    margin: 0 auto;
+                    margin-top: 4px;
+                    margin-left: 287px;
+                    .form-group-fio{
+                        left: -9px;
+                        position: relative;
+                    }
+                    .form-group-phone{
+
+                    }
+
+
+                    .form-group{
+                        .form-control-plaintext{
+                            border-bottom: 1px solid #C4C4C4;
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 20px;
+                            line-height: 140%;
+                            color: #4F4F4F;
+                            width: 257px;
+                            padding-bottom: 9px;
+                            &::placeholder{
+
+                            }
+                        }
+                        .form-control-plaintext-phone{
+
+                        }
+                        .form-control-plaintext-fio{
+
+                        }
+
+
+
+                    }
+
+
+                    .btn-send-spare-parts{
+                        box-shadow: 0px 10px 20px rgba(85, 134, 35, 0.5);
+                        border-radius: 50px;
+                        width: 215px;
+                        height: 56px;
+                        border: none;
+                        align-items: center;
+                        text-align: center;
+                        position: relative;
+                        left: -13px;
+                        bottom: 0px;
+                        background: url('/img/tpl_img/icon_right_arrow.png') 78% 50% no-repeat, linear-gradient(180deg, #94DA4F 0%, #68A22E 100%);
+
+                        .text-bt-send{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            position: relative;
+                            right: 12px;
+                        }
+
+                        &:hover{
+                            background: url('/img/tpl_img/icon_right_arrow.png') 78% 50% no-repeat, linear-gradient(180deg, #B5F972 0%, #74B039 100%);
+                            box-shadow: 0px 5px 10px rgba(85, 134, 35, 0.5);
+                        }
+                    }
+
+                }
+
+            }
+        }
+        /*********************** End Block Form Selection Spare Parts *****************************/
+
+
+    }
+    /******** End Header Block Slider **********/
+}
+/***************************** END HEADER ***********************/

@@ -1,0 +1,188 @@
+/******************************************* HEADER **************************************/
+.header {
+    height: 1076px;
+
+
+
+    /*************** Header Block Slider ***************/
+    .header-block-slider {
+        background: url(/img/tpl_img/mobile/header_bg_banner_mobile.png) center center no-repeat;
+        height: 625px;
+        background-size: cover;
+
+        .leftblock-header-block-slider {
+            margin-top: 35px;
+            /*** Block Header H1 ***/
+            .block-header-h1 {
+                margin-left: 2px;
+
+                h1 {
+                    font-size: 28px;
+                    margin-left: 0px;
+
+                }
+
+                h2 {
+                    font-size: 18px;
+                    bottom: 8px;
+
+                    &:after {
+                        bottom: -28px;
+                        left: 1px;
+                    }
+                }
+
+
+            }
+
+            /*** End Block Header H1 ***/
+
+
+            /*** Block Short Desc Company ***/
+            .block-short-desc-company {
+                margin-top: 42px;
+                margin-left: 2px;
+
+                p {
+                    font-size: 13px;
+                }
+            }
+
+            /*** End Block Short Desc Company ***/
+
+
+            /*** Block Benefits ***/
+            .block-benefits-company {
+                margin-top: 43px;
+                margin-left: 49px;
+
+                .box-benefits1 {
+                    &:before {
+                        left: -61px;
+                        top: -13px;
+                    }
+                }
+
+                .box-benefits2 {
+                    margin-top: 55px;
+
+                    &:before {
+                        left: -60px;
+                        top: -13px;
+                    }
+
+                }
+
+
+                .box-benefits {
+                    font-size: 12px;
+                }
+            }
+
+            /*** End Block Benefits ***/
+
+        }
+
+
+        /*********** Block Form Selection Spare Parts ************/
+        .wrapper-block-form-selection-spare-parts {
+            bottom: -126px;
+
+            .block-form-selection-spare-parts {
+                padding-top: 29px;
+                padding-bottom: 27px;
+                width: 100%;
+                height: 100%;
+                box-shadow: none;
+                border-top: 10px solid #FFFFFF;
+                border-bottom: 10px solid #FFFFFF;
+                border-radius: 0px;
+                border-left: none;
+                border-right: none;
+                background: url(/img/tpl_img/bg_form_search_spart.png) 253% -19% #F2F2F2 no-repeat;
+
+                &:before {
+                    display: none;
+                }
+
+                .header-form-selection-spare-parts {
+
+                    .top-row-form {
+                        margin-left: 48px;
+
+                        .bold-word {
+                            font-size: 20px;
+                        }
+
+                        .norm-word {
+                            bottom: 6px;
+                            font-size: 15px;
+                        }
+                    }
+
+
+                    .bottom-row-form {
+                        font-size: 15px;
+                        padding-left: 47px;
+                        bottom: 0px;
+                        top: 4px;
+                    }
+
+                }
+
+                /******* Form Selection Spare Parts ******/
+                .form-selection-spare-parts {
+                    margin-top: 25px;
+                    margin-left: 5px;
+
+                    .form-group-fio {
+                        left: 0px;
+                        margin-top: 2px;
+                    }
+
+                    .form-group-phone {
+
+                    }
+
+                    .form-group {
+
+                        .form-control-plaintext-fio {
+
+                        }
+
+                        .form-control-plaintext-phone {
+
+                        }
+
+                        .form-control-plaintext {
+                            font-size: 16px;
+                            //width: 280px;
+                            padding-bottom: 8px;
+                        }
+                    }
+
+                    .btn-send-spare-parts {
+                        margin-top: 22px;
+
+                        .text-bt-send {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                /******* End Form Selection Spare Parts ******/
+
+            }
+
+        }
+
+        /*********** End Block Form Selection Spare Parts ************/
+
+
+    }
+
+    /*************** End Header Block Slider ***************/
+
+
+}
+/******************************************* END HEADER **************************************/

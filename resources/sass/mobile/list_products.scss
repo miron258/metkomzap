@@ -1,0 +1,40 @@
+/********** LIST PRODUCTS **********/
+.list-products {
+
+    .list-products-row {
+
+        /***** BOX PRODUCT *****/
+        .box-product {
+
+            .block-img-product {
+                width: inherit;
+                max-height: 121px;
+
+                .link-product.link-product-empty {
+                    width: inherit;
+                    max-height: 121px;
+                }
+
+            }
+
+            .name-product {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 11px;
+                line-height: 140%;
+                text-align: center;
+                color: #000000;
+                width: inherit;
+            }
+
+        }
+
+        /***** END BOX PRODUCT *****/
+
+
+    }
+
+}
+
+/********** END LIST PRODUCTS **********/

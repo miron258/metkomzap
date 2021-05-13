@@ -1,0 +1,15 @@
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+body { background: #fff !important; }
+@import "ajax_loader";
+@import "blocks_scss/pagination";
+@import "blocks_scss/breadcrumbs";
+@import "blocks_scss/header";
+@import "blocks_scss/header_inner_page";
+@import "blocks_scss/block_catalog";
+@import "blocks_scss/block_manufacturer";
+@import "blocks_scss/block_company";
+@import "blocks_scss/block_ask_question";
+@import "blocks_scss/footer";

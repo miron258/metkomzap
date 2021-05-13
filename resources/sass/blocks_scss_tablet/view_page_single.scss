@@ -1,0 +1,28 @@
+/**************************** STYLE PAGE SINGLE ************************************/
+.block-view-page {
+    padding-top: 62px;
+    padding-bottom: 50px;
+
+    .header-block-view-page {
+        margin-left: 4px;
+
+        h1 {
+
+
+            &:after {
+                bottom: -6px;
+                left: 1px;
+            }
+        }
+    }
+
+    .description-page {
+
+        p {
+
+        }
+    }
+
+
+}
+/**************************** END STYLE PAGE SINGLE ************************************/

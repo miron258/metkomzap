@@ -1,0 +1,165 @@
+.block-ask-question.inner-catalog{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.block-view-catalog{
+    background: #F2F2F2;
+    @import 'list_products';
+    padding-bottom: 106px;
+
+    /************** Видоизмененные стили для вывода списка товаров из каталога **************/
+    .block-list-products.inner-view-catalog{
+        padding-top: 74px;
+        padding-bottom: 86px;
+        /******************* Список товаров в каталоге видоизмененные стили ********************/
+        .header-block-list-products{
+
+            h1{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 115%;
+                position: relative;
+                color: #333333;
+                &:after{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: #68A22E;
+                    width: 40px;
+                    height: 4px;
+                    bottom: -13px;
+                    left: 3px;
+                }
+            }
+        }
+
+        .list-products {
+            margin-top: 23px;
+            .list-products-row{
+                &:not(:first-child){
+                    margin-top: 50px;
+                }
+
+            }
+        }
+        /******************* Конец Список товаров в каталоге видоизмененные стили ********************/
+
+
+    }
+    /************** Конец Видоизмененные стили для вывода списка товаров из каталога **************/
+
+
+
+
+    /************** Видоизмененные стили для вывода списка каталогов из родительского каталога **************/
+    .block-catalog.inner-view-catalog{
+        padding-top: 74px;
+    }
+    .block-catalog{
+
+        .list-catalogs{
+            margin-top: 35px;
+        }
+        .header-block-catalog{
+            h1{
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 115%;
+
+                &:after{
+                    bottom: -13px;
+                }
+            }
+
+            h2{
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 115%;
+
+                &:after{
+                    bottom: -13px;
+                }
+            }
+        }
+
+    }
+    /************** Конец Видоизмененные стили для вывода списка каталогов из родительского каталога **************/
+
+
+
+    /****** Description Catalog *****/
+    .description-catalog{
+        h2,h3,h3 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            color: #333333;
+        }
+        h2{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            color: #333333;
+        }
+        h3{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            color: #333333;
+        }
+        h4{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            color: #333333;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #A9A99A;
+            &:hover {
+                color: #333333;
+                text-decoration: none;
+            }
+        }
+        *{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #333333;
+        }
+        ul{
+            li{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                color: #333333;
+            }
+        }
+
+        p{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #333333;
+            &:not(:first-child){
+                margin-top: 25px;
+            }
+        }
+    }
+    /****** End Description Catalog *****/
+
+}

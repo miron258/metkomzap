@@ -1,0 +1,91 @@
+.block-product {
+
+    /***************** BLOCK LIST PRODCUTS ******************/
+    .block-list-products.inner-view-product {
+        padding-left: 5px;
+        margin-top: 45px;
+        @import "tablet/list_products";
+    }
+
+    /***************** END BLOCK LIST PRODCUTS ******************/
+
+
+    /***************** BLOCK SHOW PRODUCT *******/
+    .block-show-product {
+        padding-top: 23px;
+        padding-left: 4px;
+
+        .header-block-show-product {
+            h1 {
+
+            }
+        }
+
+        .description-product {
+            margin-top: 66px;
+        }
+
+
+        .block-img-product {
+
+            //Leftblock Product
+            .img-product {
+
+            }
+
+            //End Leftblock Product
+
+
+            //Rightblock Product
+            .features-product {
+                padding-left: 87px;
+                padding-bottom: 25px;
+
+                .box-availability {
+                    margin-left: 10px;
+                }
+
+
+                /********* Block Quick Order *********/
+                .block-quick-order {
+
+                    .block-form-number-phone-quick-order {
+
+                        .form-number-phone-quick-order {
+
+                            .form-group-phone {
+
+                                .form-control-phone {
+
+                                }
+
+                            }
+
+
+                            .btn-order {
+                                width: 181px;
+                                right: 25px;
+                                background: url(/img/tpl_img/icon_right_arrow.png) 85% 50% no-repeat, linear-gradient(180deg, #94DA4F 0%, #68A22E 100%)
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                /********* End Block Quick Order *********/
+
+
+            }
+
+            //End Rightblock Product
+
+        }
+
+    }
+
+    /***************** END BLOCK SHOW PRODUCT *******/
+
+}
+/**************************** END PAGE PRODUCTS ************************************/

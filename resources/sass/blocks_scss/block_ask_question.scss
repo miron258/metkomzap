@@ -1,0 +1,256 @@
+
+
+/********************************** BLOCK ASK QUESTION ****************************************/
+.block-ask-question.inner-product{
+    margin-top: 0px;
+}
+.block-ask-question{
+    background: #F2F2F2;
+    margin-top: 98px;
+    padding-top: 67px;
+    padding-bottom: 64px;
+    /************* Block Banner Benefits *************/
+    .block-banner-benefits{
+        position: relative;
+
+        .banner-benefits{
+            background: url('/img/tpl_img/bg_banner_ask_question.png') 0% 100% no-repeat, linear-gradient(180deg, #94DA4F 0%, #68A22E 100%);
+            border-radius: 5px;
+            width: 386px;
+            height: 554px;
+            .row-list-benefits{
+                text-align: left;
+                position: relative;
+                top: 120px;
+                padding-left: 70px;
+                .list-benefits{
+                    list-style: none;
+                    .item-benefits{
+                        display: block;
+                        position: relative;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 120%;
+                        color: #FFFFFF;
+
+                        &:not(:first-child){
+                            margin-top: 37px;
+                        }
+
+                        &:before{
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: url('/img/tpl_img/check_circle.png') no-repeat;
+                            width: 30px;
+                            height: 30px;
+                            left: -44px;
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+    }
+    /************* End Block Banner Benefits *************/
+
+
+
+    /************* Block Form Question *************/
+    .block-form-question{
+        background: #F5F5F5;
+        border-top: 10px solid #FFFFFF;
+        border-bottom: 10px solid #FFFFFF;
+        border-right: 10px solid #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 30px 70px rgba(0, 0, 0, 0.11);
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        height: 506px;
+        width: 832px;
+        position: relative;
+        margin-top: 22px;
+        left: -30px;
+        padding-left: 134px;
+        .header-block-form-question{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 120%;
+            color: #333333;
+            margin-top: 78px;
+            .green{
+                color: #68A22E;
+            }
+        }
+
+
+        .message-send-form{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        /************ Form Question ***********/
+        .form-question{
+            padding-top: 30px;
+            .form-group-phone{
+
+            }
+            .form-group-email{
+                margin-left: 13px;
+            }
+
+            .form-group{
+                position: relative;
+
+                .invalid-feedback{
+                    position: absolute;
+
+                }
+
+                label{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    color: #ABABAB;
+                    margin-bottom: 6px;
+                }
+
+                .form-control-plaintext.is-invalid{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    border-bottom: 1px solid red;
+                }
+
+                .form-control-plaintext{
+                    border-bottom: 1px solid #C4C4C4;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    text-align: left;
+                    line-height: 140%;
+                    color: #4F4F4F;
+                    padding: 0px;
+                    width: 279px;
+                    border-bottom: 1px solid #C8D5DC;
+                    padding-bottom: 3px;
+                    &::placeholder{
+
+                    }
+
+
+
+
+                }
+
+                .form-control-plaintext-fio{
+
+                }
+                .form-control-plaintext-email{
+
+                }
+            }
+
+            /******** Btn Send Form Question ******/
+            .btn-send-form-question{
+                box-shadow: 0px 10px 20px rgba(85, 134, 35, 0.5);
+                border-radius: 50px;
+                width: 215px;
+                height: 56px;
+                border: none;
+                align-items: center;
+                text-align: center;
+                position: relative;
+                margin-left: 15px;
+                margin-top: 14px;
+                background: url('/img/tpl_img/icon_right_arrow.png') 79% 50% no-repeat, linear-gradient(180deg, #94DA4F 0%, #68A22E 100%);
+
+                .text-bt-send{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    position: relative;
+                    right: 10px;
+                }
+
+                &:hover{
+                    background: url('/img/tpl_img/icon_right_arrow.png') 79% 50% no-repeat, linear-gradient(180deg, #B5F972 0%, #74B039 100%);
+                    box-shadow: 0px 5px 10px rgba(85, 134, 35, 0.5);
+                }
+
+            }
+            /******** End Btn Send Form Question ******/
+
+
+            /************ Form Checkbox Personal Data ***********/
+            .form-check-personal-data{
+                margin-top: 16px;
+                margin-left: 5px;
+
+
+                /*********** Custom Checkbox *********/
+                .custom-checkbox{
+                    padding-left: 0px;
+                    .custom-control-input{
+                        &:checked~.custom-control-label::before{
+                            background: url('/img/tpl_img/check_verified.png') no-repeat !important;
+                            border: none;
+                        }
+                        &:checked~.custom-control-label::after{
+                            display: none;
+
+                        }
+
+                    }
+                    .custom-control-label{
+                        &:before{
+                            width: 18px;
+                            height: 18px;
+                            border: 1px solid #68A22E;
+                            color: #68A22E;
+                            left: -31px;
+                            top: -1px;
+                        }
+
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 140%;
+                        position: relative;
+                        left: 22px;
+                        top: 7px;
+                        color: #828282;
+                    }
+
+                }
+                /*********** End Custom Checkbox *********/
+
+
+
+            }
+            /************ End Form Checkbox Personal Data ***********/
+
+        }
+        /************ End Form Question ***********/
+
+    }
+    /************* End Block Form Question *************/
+
+
+}
+/********************************** END BLOCK ASK QUESTION ****************************************/

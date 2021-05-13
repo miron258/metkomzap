@@ -1,0 +1,105 @@
+
+/********************************** BLOCK MANUFACTURER ****************************************/
+.block-manufacturer{
+    padding-top: 97px;
+    .header-block-manufacturer{
+        margin-left: 11px;
+        h2{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 120%;
+            color: #333333;
+            position: relative;
+            bottom: 6px;
+            left: 3px;
+            &:after{
+                position: absolute;
+                content: "";
+                display: block;
+                background: #68A22E;
+                height: 4px;
+                width: 40px;
+                bottom: -9px;
+
+            }
+        }
+    }
+
+
+    .block-slider-manufacturer{
+        margin-top: 30px;
+        position: relative;
+        /*********** Owl Carousel *********/
+        .owl-carousel{
+            position: relative;
+
+            /******** Navigation Dots ***********/
+            .owl-dots{
+                position: absolute;
+                top: -72px;
+                left: 323px;
+                display: flex;
+                .owl-dot{
+                    width: 20px;
+                    height: 20px;
+                    outline: none;
+                    span{
+                        display: inline-block;
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 12px;
+                        background: #C8C8C8;
+                        &:hover{
+                            background: #68A22E;
+                        }
+                    }
+
+                    /*                    border: 8px solid rgba(0,0,0,0.3);*/
+
+
+
+                    &:not(:first-child){
+                        margin-left: 18px;
+                        /*                        position: relative;
+                                                top: -4px;*/
+                    }
+                }
+
+                .owl-dot.active{
+                    span{
+                        background: url('/img/tpl_img/dots_active.png') no-repeat;
+                        width: 20px;
+                        height: 20px;
+                        /*                         border: 8px solid rgba(0,0,0,0.3);*/
+                    }
+
+                    /*                    width: 12px;
+                                        height: 12px;
+                                        border: 8px solid #68A22E; */
+                }
+
+            }
+            /******** End Navigation Dots ***********/
+
+
+
+            /******* Box Owl Item ********/
+            .box-owl-item{
+
+                .box-owl-item-img{
+
+                }
+
+            }
+            /******* End Box Owl Item ********/
+
+
+        }
+        /*********** End Owl Carousel *********/
+
+    }
+
+}
+/********************************** END BLOCK MANUFACTURER ****************************************/

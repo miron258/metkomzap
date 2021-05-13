@@ -1,0 +1,20 @@
+.header{
+    .container-navigation{
+        border-top: 2px solid #F7F7EF;
+    }
+}
+.header.header-page, .header.header-search, .header.header-catalog, .header.header-product   {
+    height: auto;
+    .container-navigation{
+        padding-top: 19px;
+        border-top: 2px solid #F7F7EF;
+    }
+    .header-block-contacts {
+
+    }
+
+    .header-block-menu {
+
+    }
+}
+

@@ -1,0 +1,324 @@
+
+/********************************** BLOCK FOOTER ****************************************/
+.footer{
+    background: linear-gradient(90deg, #323B3F 0%, #3A484D 50%, #40545E 100%);
+    mix-blend-mode: normal;
+
+
+
+    .footer-top-block {
+        padding-top: 97px;
+        padding-bottom: 64px;
+        /*********** Block Footer Contacts ***********/
+        .block-footer-contacts{
+            position: relative;
+            left: -3px;
+            /****** Link Footer Logo *****/
+            .link-footer-logo{
+                text-decoration: none;
+                display: block;
+                &:hover{
+                    text-decoration: none;
+                }
+
+                .img-footer-logo{
+
+                }
+            }
+            /****** End Link Footer Logo *****/
+
+
+            /*********** Footer Contacts *************/
+            .footer-contacts{
+                margin-top: 40px;
+                .header-footer-contacts{
+                    margin-left: 23px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    display: flex;
+                    align-items: center;
+                    color: #FFFFFF;
+                }
+
+                .footer-phone{
+                    margin-top: 13px;
+                    margin-left: 53px;
+
+                    .link-footer-phone.link-footer-phone1{
+
+                    }
+                    .link-footer-phone.link-footer-phone2{
+                        margin-top: 0.4rem;
+                    }
+
+
+                    .link-footer-phone{
+                        position: relative;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        display: block;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                        color: #F2F2F2;
+
+                        &:hover{
+                            text-decoration: none;
+                        }
+                        &:before{
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: url('/img/tpl_img/icon_phone.png') no-repeat;
+                            width: 16px;
+                            height: 16px;
+                            left: -31px;
+                            top: 2px;
+                        }
+                    }
+                }
+
+                .footer-email{
+                    margin-top: 7px;
+                    margin-left: 55px;
+                    .link-footer-email{
+                        position: relative;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 17px;
+                        display: flex;
+                        align-items: center;
+                        text-decoration: underline;
+                        color: #FFFFFF;
+
+                        &:before{
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: url('/img/tpl_img/icon_email.png') no-repeat;
+                            width: 18px;
+                            height: 12px;
+                            left: -33px;
+                            top: 4px;
+                        }
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+            /*********** End Footer Contacts *************/
+
+
+        }
+        /*********** End Block Footer Contacts ***********/
+
+
+
+        /*********** Block Footer Menu 1 ***********/
+        .footer-menu1{
+            margin-top: 3px;
+            .list-footer-menu-left{
+                padding-left: 0px;
+                list-style: none;
+
+                .item-list-footer-menu-left.active{
+                    .link-item-list-footer-menu-left{
+                        color: #68A22E;
+                        text-decoration: underline;
+                    }
+                }
+
+                .item-list-footer-menu-left{
+
+                    &:not(:first-child){
+                        margin-top: 20px;
+                    }
+                    .link-item-list-footer-menu-left{
+                        display: block;
+                        text-decoration: none;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 11px;
+                        line-height: 140%;
+                        text-transform: uppercase;
+                        color: #D6DADC;
+                        word-break: break-word;
+                        &:hover{
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+
+        }
+        /*********** End Block Footer Menu 1 ***********/
+
+
+
+
+        /*********** Block Footer Menu 2 ***********/
+        .footer-menu2{
+            margin-top: 3px;
+            margin-left: 0px;
+            .list-footer-menu-middle{
+                padding-left: 0px;
+                list-style: none;
+
+                .item-list-footer-menu-middle.active{
+                    .link-item-list-footer-menu-middle{
+                        color: #68A22E;
+                        text-decoration: underline;
+                    }
+                }
+
+                .item-list-footer-menu-middle{
+
+                    &:not(:first-child){
+                        margin-top: 20px;
+                    }
+                    .link-item-list-footer-menu-middle{
+                        display: block;
+                        text-decoration: none;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 11px;
+                        line-height: 140%;
+                        text-transform: uppercase;
+                        color: #D6DADC;
+                        word-break: break-word;
+                        &:hover{
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+
+        }
+        /*********** End Block Footer Menu 1 ***********/
+
+
+
+
+
+        /*********** Block Footer Menu 3 ***********/
+        .footer-menu3{
+            margin-top: 3px;
+            margin-left: 0px;
+            .list-footer-menu-right{
+                padding-left: 0px;
+                list-style: none;
+                .item-list-footer-menu-right.active{
+                    .link-item-list-footer-menu-right{
+                        color: #68A22E;
+                        text-decoration: underline;
+                    }
+                }
+
+                .item-list-footer-menu-right{
+
+                    &:not(:first-child){
+                        margin-top: 20px;
+                    }
+                    .link-item-list-footer-menu-right{
+                        display: block;
+                        text-decoration: none;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 11px;
+                        line-height: 140%;
+                        text-transform: uppercase;
+                        color: #D6DADC;
+                        word-break: break-word;
+                        &:hover{
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+
+        }
+        /*********** End Block Footer Menu 1 ***********/
+
+
+    }
+
+
+
+    /************** Row Footer Copyright ****************/
+    .footer-bottom-block {
+        border-top: 1px solid #58656A;
+        padding-top: 35px;
+        padding-bottom: 31px;
+        /******** Block Copyright ********/
+        .block-copyright{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 120%;
+            text-transform: capitalize;
+            color: #78868B;
+            position: relative;
+            right: 75px;
+        }
+        /******** End Block Copyright ********/
+
+
+        /******** Block Creator Site ********/
+        .block-creator-site{
+            position: relative;
+            bottom: 5px;
+            .text-creator-site{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 120%;
+                text-transform: capitalize;
+                color: #78868B;
+            }
+
+            .link-creator-site{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 120%;
+                text-transform: capitalize;
+                color: #fff;
+                text-decoration: underline;
+
+
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+
+
+        }
+        /******** End Block Creator Site ********/
+
+
+
+    }
+    /************** End Row Footer Copyright ****************/
+
+}
+/********************************** END BLOCK FOOTER ****************************************/

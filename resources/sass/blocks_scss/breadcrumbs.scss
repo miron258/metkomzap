@@ -1,0 +1,48 @@
+/***************************** BLOCK BREADCRUMBS ***********************/
+.block-breadcrumbs{
+    background: url('/img/tpl_img/bg_breadcrumbs.png') center center no-repeat;
+    height: 87px;
+    background-size: cover;
+    .breadcrumb{
+        background: none !important;
+        border-radius: 0px;
+        padding-top: 35px;
+        padding-left: 17px !important;
+        //Active Breadcrumb Item
+        .breadcrumb-item.active{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            /*            color: #333333;*/
+
+        }
+        .breadcrumb-item + .breadcrumb-item::before{
+            color: #fff;
+        }
+        //Default Breadcrumb Item
+        .breadcrumb-item{
+            position: relative;
+            &:not(:first-child){
+                margin-left: 7px;
+            }
+
+            a {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                color: #FFFFFF;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+
+
+        }
+
+    }
+
+}
+/***************************** END BLOCK BREADCRUMBS ***********************/

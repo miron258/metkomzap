@@ -1,0 +1,33 @@
+/************************************** PAGE LIST PRODUCTS IN CATALOG *********************************************/
+.block-view-catalog {
+    padding-bottom: 0px;
+
+    .block-list-products.inner-view-catalog {
+        padding-top: 40px;
+        padding-bottom: 0px;
+
+        .header-block-list-products {
+
+            h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 120%;
+                color: #333333;
+
+
+                &:after {
+
+                }
+            }
+        }
+
+        @import "mobile/list_products";
+
+
+    }
+
+
+}
+/************************************** END PAGE LIST PRODUCTS IN CATALOG *********************************************/

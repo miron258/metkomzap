@@ -1,0 +1,104 @@
+/**************************** BLOCK COMPANY ************************************/
+.block-company {
+    margin-top: 101px;
+
+    .header-block-company {
+        margin-left: 20px;
+
+        h2 {
+            &:after {
+                left: 0px;
+            }
+        }
+
+    }
+
+
+    .description-block-company {
+        margin-top: 19px;
+        margin-left: 4px;
+        padding-right: 10px;
+
+        .list-benefits {
+            padding-left: 48px;
+            margin-top: 23px;
+
+            .item-benefits {
+
+                br {
+                    display: none;
+                }
+            }
+
+        }
+
+        .bottom-description {
+
+        }
+
+    }
+
+
+    .banners-block-company {
+        top: 0px;
+        right: 0px;
+        margin-top: 39px;
+        /***** Top Banner *****/
+        .top-banner {
+            background-image: url(/img/tpl_img/tablet/banner_1_tablet.png), linear-gradient(145.46deg, rgba(0, 0, 0, 0.72) 34.55%, rgba(196, 196, 196, 0) 92.81%);
+            width: 354px;
+            height: 246px;
+            left: 5px;
+
+            .text-banner {
+                left: 35px;
+                top: 53px;
+                font-size: 18px;
+            }
+
+            .block-link-banner {
+                left: 37px;
+
+                .link-banner {
+
+                }
+            }
+
+        }
+
+        /***** End Top Banner *****/
+
+
+        /***** Bottom Banner *****/
+        .bottom-banner {
+            background-image: url(/img/tpl_img/tablet/banner_2_tablet.png),linear-gradient(145.46deg, rgba(0, 0, 0, 0.72) 34.55%, rgba(196, 196, 196, 0) 92.81%);
+            width: 354px;
+            height: 246px;
+            margin-top: 0px;
+            right: 5px;
+
+            .text-banner {
+                left: 37px;
+                top: 53px;
+                font-size: 18px;
+            }
+
+            .block-link-banner {
+                left: 37px;
+
+                .link-banner {
+
+                }
+            }
+        }
+
+        /***** End Bottom Banner *****/
+
+
+    }
+
+
+}
+
+
+/**************************** END BLOCK COMPANY ************************************/

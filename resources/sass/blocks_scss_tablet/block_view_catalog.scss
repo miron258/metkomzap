@@ -1,0 +1,76 @@
+/***** Block View Catalog ******/
+.block-view-catalog {
+    padding-bottom: 53px;
+
+    .block-catalog.inner-view-catalog {
+        margin-top: 0px;
+        padding-bottom: 68px;
+        padding-top: 63px;
+
+        .header-block-catalog {
+            margin-left: 20px;
+
+            h1 {
+
+                &:after {
+                    bottom: -8px;
+                    left: 0px;
+                }
+
+            }
+
+        }
+
+        /***************** LIST CATALOGS ********************/
+        .list-catalogs {
+
+            .row-catalogs {
+
+
+                /********* Box Catalog *********/
+                .box-catalog {
+
+
+                    .block-name-catalog {
+
+                        .name-catalog {
+                            /*                                margin-top: 6px;*/
+                        }
+
+                    }
+
+                }
+
+                /********* End Box Catalog *********/
+
+            }
+
+        }
+
+        /***************** END LIST CATALOGS ********************/
+
+
+    }
+
+
+    /************** Description Catalog **************/
+    .description-catalog {
+        padding-left: 5px;
+        padding-right: 5px;
+
+        p {
+            line-height: 20px;
+
+            &:not(:first-child) {
+                margin-top: 20px;
+            }
+
+
+        }
+
+    }
+
+    /************** End Description Catalog **************/
+
+}
+/***** End Block View Catalog ******/

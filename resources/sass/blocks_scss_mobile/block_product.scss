@@ -1,0 +1,254 @@
+/************************************** PAGE PRODUCT *********************************************/
+
+.block-product {
+    padding-top: 13px;
+
+
+    /********************** List Products **********************/
+    .block-list-products.inner-view-product {
+        margin-top: 23px;
+        padding-left: 0px;
+        .header-block-list-products {
+            h3 {
+
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 140%;
+                color: #000000;
+
+            }
+        }
+
+
+        @import "mobile/list_products";
+
+
+    }
+    /********************** End List Products **********************/
+
+
+    .block-show-product {
+        padding-left: 0px;
+
+        .header-block-show-product {
+            padding-left: 4px;
+
+            h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 115%;
+                color: #333333;
+            }
+        }
+
+
+        .block-img-product {
+
+            /****** Img Product *******/
+            .img-product {
+                margin-top: 10px;
+
+            }
+
+            /****** End Img Product *******/
+
+
+            /****** Features Product *******/
+            .wrapper-features-product {
+                padding-left: 0px;
+                padding-right: 0px;
+
+                .features-product {
+                    padding-left: 5px;
+                    padding-bottom: 114px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    margin-top: 40px;
+                    padding-top: 34px;
+                    border-radius: 0px;
+
+                    .row {
+                        margin-left: 0px;
+                        margin-right: 0px;
+                    }
+
+                    .box-price {
+                        .block-price {
+                            .price {
+                                font-size: 18px;
+                                font-family: Montserrat;
+                                font-style: normal;
+
+                                font-weight: 500;
+
+                                .rub {
+                                    font-size: 18px;
+                                }
+
+                            }
+                        }
+
+                        .block-number {
+
+                            .number {
+                                font-size: 13px;
+                                line-height: 16px;
+                            }
+
+                        }
+
+                    }
+
+
+                    .box-availability {
+                        margin-left: 0px;
+                        padding-left: 19px;
+
+                        .block-availability {
+
+                            .availability {
+                                font-size: 13px;
+                                left: 0px;
+                                padding-left: 21px;
+                                top: 0px;
+
+                                &:before {
+                                    left: 3px;
+                                }
+                            }
+
+                        }
+
+
+                        .block-advice {
+
+                            .number-phone {
+                                left: 0px;
+                                padding-left: 21px;
+
+                                &:before {
+                                    left: 2px;
+                                }
+
+                                .link-number-phone {
+                                    font-size: 13px;
+                                    line-height: 16px;
+                                }
+
+                            }
+
+                        }
+
+
+                    }
+
+
+                    /********** Block Quick Order *********/
+                    .block-quick-order {
+                        position: relative;
+                        margin-left: -5px;
+                        margin-top: 73px;
+
+                        &:before {
+                            top: -35px;
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            height: 1px;
+                            background: #E5E5E5;
+                            width: 100%;
+                        }
+
+
+                        .header-block-quick-order {
+                            text-align: center;
+                        }
+
+                        .block-form-number-phone-quick-order {
+                            margin-top: 16px;
+                            margin-left: 0px;
+                            /***** Form Quick Order *****/
+                            .form-number-phone-quick-order {
+                                margin: 0 auto;
+
+                                .form-group-phone {
+                                    .form-control-phone {
+                                        border-right: 1px solid #D8D8D8;
+                                        border-bottom-right-radius: 50px;
+                                        border-top-right-radius: 50px;
+                                        width: 278px;
+                                        padding-left: 82px;
+                                        margin: 0 auto;
+                                        background: url(/img/tpl_img/icon_phone_product_green.png) 21% 50% no-repeat;
+                                    }
+                                }
+
+                                .btn-order {
+                                    position: relative;
+                                    right: 0px;
+                                    text-align: center;
+                                    margin: 0 auto;
+                                    margin-top: 20px;
+
+                                    .text-order {
+
+                                    }
+
+                                }
+                            }
+
+                            /***** End Form Quick Order *****/
+
+
+                        }
+
+                    }
+
+                    /********** End Block Quick Order *********/
+
+
+                }
+
+
+            }
+
+            /****** End Features Product *******/
+
+
+        }
+
+
+        /************** Description Product *************/
+        .description-product {
+            margin-top: 45px;
+
+            .header-description-product {
+                font-size: 13px;
+                padding-left: 4px;
+            }
+
+
+            .text-product {
+                margin-top: 17px;
+                padding-left: 4px;
+
+                p {
+                    line-height: 20px;
+                }
+            }
+
+        }
+
+        /************** End Description Product *************/
+
+
+    }
+
+}
+
+
+/************************************** END PAGE PRODUCT *********************************************/

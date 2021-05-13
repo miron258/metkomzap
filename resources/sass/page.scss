@@ -1,0 +1,116 @@
+.block-ask-question.inner-page {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.block-view-page {
+    background: #F2F2F2;
+    padding-bottom: 106px;
+    padding-top: 72px;
+
+    .header-block-view-page {
+
+        h1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 120%;
+            color: #333333;
+            position: relative;
+
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                background: #68A22E;
+                width: 40px;
+                height: 4px;
+                bottom: -13px;
+                left: 3px;
+            }
+        }
+
+    }
+
+    .description-page {
+
+        margin-top: 40px;
+
+        h2, h3, h3 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            color: #333333;
+        }
+
+        h2 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            color: #333333;
+        }
+
+        h3 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            color: #333333;
+        }
+
+        h4 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            color: #333333;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #A9A99A;
+            &:hover {
+                color: #333333;
+                text-decoration: none;
+            }
+        }
+
+        * {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #333333;
+        }
+
+        ul {
+            li {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                color: #333333;
+            }
+        }
+
+        p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #333333;
+
+            &:not(:first-child) {
+                margin-top: 25px;
+            }
+        }
+
+    }
+
+}
+

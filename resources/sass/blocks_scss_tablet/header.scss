@@ -1,0 +1,312 @@
+/**************************** HEADER ************************************/
+.header {
+
+
+    /********** Header Block Contacts ***********/
+    .header-block-contacts {
+        border-bottom: none;
+
+        .logo {
+            left: 5px;
+            bottom: 4px;
+        }
+
+        .header-email {
+            left: 42px;
+            top: 12px;
+            .header-link-email{
+                font-size: 12px;
+            }
+        }
+
+        .header-phone {
+            left: 6px;
+
+            .header-link-phone {
+                &:before {
+                    top: 2px;
+                }
+            }
+        }
+
+        .header-callback {
+            right: 37px;
+        }
+
+    }
+
+
+    /************ Header Block Menu **************/
+    .container-navigation {
+        padding-top: 18px;
+        .header-block-menu {
+
+            @import "dropdown_menu";
+
+
+            .block-menu-main {
+                margin-left: 15px;
+
+
+                /******* Search Tablet ******/
+                .search-tablet {
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+
+                    input::-webkit-search-decoration,
+                    input::-webkit-search-cancel-button {
+                        display: none;
+                    }
+
+                    ////////////// Style For Input type=search
+                    .search-catalog {
+                        width: 30px;
+                        outline: none;
+                        border: none;
+                        background: url('/img/tpl_img/search.png') 0% 50% no-repeat;
+                        -webkit-appearance: textfield;
+                        -webkit-box-sizing: content-box;
+                        -webkit-transition: all .5s;
+                        -moz-transition: all .5s;
+                        transition: all .5s;
+                        font-family: inherit;
+                        font-size: 100%;
+
+                        &::placeholder {
+
+                        }
+                        &:focus {
+                            width: 130px;
+                            background-color: #fff;
+                            padding-left: 25px;
+                            -webkit-box-shadow: 0 0 5px rgba(247,247,239,1);
+                            -moz-box-shadow: 0 0 5px rgba(247,247,239,1);
+                            box-shadow: 0 0 5px rgba(247,247,239,1);
+                        }
+                        &:-moz-placeholder {
+                            color: #999;
+                        }
+                        &::-webkit-input-placeholder {
+                            color: #999;
+                        }
+
+                    }
+                    ////////////// End Style For Input type=search
+
+
+
+                }
+
+                /******* End Search Tablet ******/
+
+
+                .list-menu-main {
+
+                    .item-list-menu-main {
+
+
+                        &:not(:first-child) {
+                            margin-left: 10px;
+                        }
+
+                        .link-item-list-menu-main {
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+            .block-search {
+
+                .search-catalog {
+
+                }
+            }
+
+
+        }
+    }
+
+    /************ End Header Block Menu **************/
+
+
+    /************ Header Block Slider **************/
+    .header-block-slider {
+        background: url(/img/tpl_img/tablet/header_bg_banner_tablet.png) center center no-repeat;
+
+        .leftblock-header-block-slider {
+            margin-top: 63px;
+
+            .block-header-h1 {
+                margin-left: 22px;
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                h2 {
+                    font-size: 28px;
+                    margin-top: 16px;
+
+                    &:after {
+                        bottom: -31px;
+                        left: 0px;
+                        width: 101.91px;
+                    }
+                }
+            }
+
+
+            .block-short-desc-company {
+                margin-top: 52px;
+
+                p {
+                    font-size: 15px;
+
+                    br {
+                        display: none;
+                    }
+
+                    .br-tablet {
+                        display: block;
+                    }
+
+                }
+            }
+
+
+            /***** Block Benefits Company *****/
+            .block-benefits-company {
+                margin-top: 58px;
+                margin-left: 79px;
+
+                .box-benefits1 {
+
+                    &:before {
+                        left: -68px;
+                    }
+                }
+
+                .box-benefits2 {
+                    left: 0px;
+                    margin-top: 43px;
+
+                    &:before {
+                        left: -68px;
+                    }
+                }
+
+                .box-benefits {
+
+
+                    &:before {
+
+                    }
+
+
+                }
+
+            }
+
+            /***** End Block Benefits Company *****/
+
+        }
+
+
+        /************************** Block Form Selection Spare Parts *************************/
+        .wrapper-block-form-selection-spare-parts {
+            bottom: -63px;
+            margin-left: 0px;
+
+            .block-form-selection-spare-parts {
+                width: 100%;
+                height: 328px;
+                background: url(/img/tpl_img/bg_form_search_spart.png) 100% -23% #F2F2F2 no-repeat;
+
+                &:before {
+                    left: -162px;
+                    top: 115px;
+                }
+
+                .header-form-selection-spare-parts {
+                    left: -28px;
+
+                    .top-row-form {
+                        text-align: left;
+                        margin-left: 203px;
+
+                        .br-tablet {
+                            display: block;
+                        }
+
+                        .bold-word {
+
+                        }
+
+                        .norm-word {
+                            bottom: 8px;
+                            left: 0px;
+                            display: block;
+                        }
+
+                    }
+
+                    .bottom-row-form {
+                        bottom: 6px;
+                        padding-left: 203px;
+                        width: 100%;
+                    }
+
+                }
+
+                /****** Form Selection Spare Parts *****/
+                .form-selection-spare-parts {
+                    margin-top: 12px;
+                    margin-left: 160px;
+
+                    .form-group-fio {
+                        left: -40px;
+                    }
+
+                    .form-group {
+
+                        .form-control-plaintext {
+
+                        }
+
+                    }
+
+
+                    .btn-send-spare-parts {
+                        left: 0px;
+                        bottom: 0px;
+                        top: 0px;
+                        margin-top: 16px;
+                    }
+
+                }
+
+                /****** End Form Selection Spare Parts *****/
+
+            }
+
+        }
+
+        /************************** End Block Form Selection Spare Parts *************************/
+
+    }
+
+    /************ End Header Block Slider **************/
+
+
+}
+
+/**************************** END HEADER ************************************/
+
+
+

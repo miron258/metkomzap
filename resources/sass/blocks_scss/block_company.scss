@@ -1,0 +1,230 @@
+
+/********************************** BLOCK COMPANY ****************************************/
+.block-company{
+    margin-top: 87px;
+    .header-block-company{
+        margin-left: 15px;
+        h2{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            color: #333333;
+            position: relative;
+
+
+            &:after{
+                position: absolute;
+                content: "";
+                display: block;
+                background: #68A22E;
+                height: 4px;
+                width: 40px;
+                bottom: -11px;
+                left: 3px;
+            }
+        }
+
+    }
+
+
+    /************* Description Block Company ****************/
+    .description-block-company{
+        position: relative;
+        margin-top: 31px;
+        margin-left: 2px;
+        .top-description,.bottom-description{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #333333;
+            position: relative;
+        }
+
+        .top-description{
+
+            .top-paragraph{
+                display: block;
+                position: relative;
+            }
+
+            .bottom-paragraph{
+                display: block;
+                position: relative;
+                margin-top: 25px;
+            }
+
+            .bold{
+                font-weight: bold;
+            }
+
+        }
+
+
+        .list-benefits{
+            list-style: none;
+            position: relative;
+            padding-left: 63px;
+            margin-top: 24px;
+            .item-benefits{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                color: #333333;
+                position: relative;
+                line-height: 20px;
+                .bold{
+                    font-weight: bold;
+                }
+
+                &:not(:first-child){
+                    margin-top: 16px;
+                }
+
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    left: -27px;
+                    top: 5px;
+                    background: url('/img/tpl_img/check_circle_mini.png') no-repeat;
+                    width: 15px;
+                    height: 15px;
+                }
+
+
+                .bold{
+
+                }
+            }
+        }
+
+        .bottom-description{
+            margin-top: 29px;
+        }
+
+    }
+    /************* End Description Block Company ****************/
+
+
+    /************* Banners Block Company ****************/
+    .banners-block-company{
+        position: relative;
+        right: 31px;
+        top: 32px;
+
+        /******* Top Banner *******/
+        .top-banner{
+            background: url('/img/tpl_img/banner_1.png');
+            width: 416px;
+            height: 246px;
+            border-radius: 5px;
+            position: relative;
+
+            .text-banner{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 120%;
+                color: #FFFFFF;
+                position: absolute;
+                text-align: left;
+                left: 50px;
+                top: 52px;
+            }
+
+            .block-link-banner{
+                position: absolute;
+                bottom: 45px;
+                left: 50px;
+
+
+                .link-banner{
+                    width: 222px;
+                    height: 56px;
+                    display: block;
+                    text-decoration: none;
+                    background: url('/img/tpl_img/banner_arrow_green.png') #FFFFFF 85% 52% no-repeat;
+                    border-radius: 25px;
+                    padding-left: 34px;
+                    padding-top: 18px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 14px;
+                    color: #68A22E;
+
+                    &:hover{
+                        text-decoration: none;
+                        color: #FFFFFF;
+                        background: url('/img/tpl_img/banner_arrow_white.png') #68A22E 85% 52% no-repeat;
+                    }
+
+                }
+            }
+        }
+        /******* End Top Banner *******/
+
+
+        .bottom-banner{
+            margin-top: 30px;
+            background: url('/img/tpl_img/banner_2.png');
+            width: 416px;
+            height: 246px;
+            border-radius: 5px;
+            position: relative;
+            .text-banner{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 120%;
+                color: #FFFFFF;
+                position: absolute;
+                text-align: left;
+                left: 50px;
+                top: 52px;
+            }
+
+            .block-link-banner{
+                position: absolute;
+                bottom: 45px;
+                left: 50px;
+
+
+                .link-banner{
+                    width: 222px;
+                    height: 56px;
+                    display: block;
+                    text-decoration: none;
+                    background: url('/img/tpl_img/banner_arrow_green.png') #FFFFFF 85% 52% no-repeat;
+                    border-radius: 25px;
+                    padding-left: 34px;
+                    padding-top: 18px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 14px;
+                    color: #68A22E;
+
+                    &:hover{
+                        text-decoration: none;
+                        color: #FFFFFF;
+                        background: url('/img/tpl_img/banner_arrow_white.png') #68A22E 85% 52% no-repeat;
+                    }
+
+                }
+            }
+
+        }
+
+    }
+    /************* End Banners Block Company ****************/
+
+
+}
+/********************************** END BLOCK COMPANY ****************************************/

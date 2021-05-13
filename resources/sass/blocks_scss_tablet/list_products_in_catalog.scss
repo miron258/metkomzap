@@ -1,0 +1,25 @@
+/**************************** PAGE LIST PRODUCTS ************************************/
+.block-view-catalog {
+    .block-list-products.inner-view-catalog {
+        padding-top: 63px;
+        padding-bottom: 35px;
+
+        .header-block-list-products {
+            margin-left: 2px;
+
+            h1 {
+                &:after {
+                    bottom: -7px;
+                    left: 3px;
+                }
+            }
+        }
+
+        @import "tablet/list_products";
+
+
+    }
+
+
+}
+/**************************** END PAGE LIST PRODUCTS ************************************/

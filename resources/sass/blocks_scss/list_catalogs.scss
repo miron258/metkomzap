@@ -1,0 +1,106 @@
+/************ List Catalogs *************/
+.list-catalogs{
+    margin-top: 33px;
+
+
+    /***************** Row Catalogs *****************/
+    .row-catalogs {
+
+
+        &:not(:first-child){
+            margin-top: 50px;
+        }
+
+        /******** Box Catalog *********/
+        .box-catalog{
+            width: 287px; //Ширина бокса на 5 пикселей больше за счет рамки border
+
+
+
+
+            /***** block img catalog *****/
+            .block-img-catalog{
+                background: #FFFFFF;
+
+                box-shadow: 0 0 0 1pt #E0E0E0;
+                //border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 5px;
+                width: 282px;
+                height: 205px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                overflow: hidden;
+                border: 5px solid transparent;
+                &:hover{
+                    /* green */
+
+                    border: 5px solid #68A22E;
+                }
+
+                .link-catalog{
+                    text-decoration: none;
+                    display: block;
+                    /*                        width: 282px;
+                                            height: 205px;*/
+                    &:hover{
+                        text-decoration: none;
+                    }
+
+                    .img-catalog{
+
+                    }
+                }
+            }
+            /***** end block img catalog *****/
+
+
+            /***** block name catalog *****/
+            .block-name-catalog{
+                margin-top: 17px;
+                .num-catalog{
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 20px;
+                    left: 24px;
+                    top: 220px;
+                    float: left;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 20px;
+                    display: inline-block;
+                    align-items: center;
+                    text-align: center;
+                    color: #F2F2F2;
+                    background: #68A22E;
+                }
+
+                .name-catalog{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 120%;
+                    color: #333333;
+                    float: left;
+                    display: inline-block;
+                    padding-left: 37px;
+                }
+            }
+            /***** end block name catalog *****/
+
+
+        }
+        /******** End Box Catalog *********/
+    }
+    /***************** End Row Catalogs *****************/
+
+
+
+}
+/************ End List Catalogs *************/

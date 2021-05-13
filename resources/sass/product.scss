@@ -1,0 +1,520 @@
+.block-product{
+    background: #F2F2F2;
+    padding-top: 41px;
+    padding-bottom: 32px;
+    /********************* Block List Catalogs *******************/
+    .block-list-catalogs{
+        background: #FFFFFF;
+        border-radius: 5px;
+        width: 386px;
+        padding-bottom: 22px;
+
+        .header-block-list-catalogs{
+            padding-top: 29px;
+            padding-left: 42px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #F2F2F2;
+            h2{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 120%;
+                color: #333333;
+            }
+
+
+        }
+
+
+        /********** List Catalogs **********/
+        .wrapper-list-catalogs{
+            margin-top: 37px;
+            .list-catalogs{
+                list-style: none;
+                padding-left: 70px;
+                padding-right: 30px;
+
+                .item-list-catalogs{
+                    display: block;
+                    position: relative;
+                    &:not(:first-child){
+                        margin-top: 12px;
+
+                    }
+
+                    &:before{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: url('/img/tpl_img/item_circle_catalog.png') no-repeat;
+                        width: 12px;
+                        height: 12px;
+                        left: -28px;
+                        top: 3px;
+                    }
+
+                    .link-list-catalogs{
+                        text-decoration: none;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 11px;
+                        line-height: 16px;
+                        text-transform: uppercase;
+                        color: #333333;
+                        display: block;
+                        &:hover{
+                            color: #68A22E;
+                            text-decoration: none;
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+        /********** End List Catalogs **********/
+
+
+
+
+    }
+    /********************* End Block List Catalogs *******************/
+
+
+
+    .block-show-product{
+        padding-top: 33px;
+
+        .header-block-show-product{
+            h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                color: #333333;
+            }
+
+        }
+
+
+        /*************** Block Img Product *****************/
+        .block-img-product{
+
+            .img-product{
+                margin-top: 34px;
+                border-radius: 5px;
+
+            }
+
+
+            .features-product{
+                background: #fff;
+                border-radius: 0px 5px 5px 0px;
+                padding-left: 65px;
+                padding-top: 26px;
+                padding-bottom: 17px;
+                margin-top: 48px;
+
+                /******************* Box Price *****************/
+                .box-price{
+
+                    /******* Артикул ********/
+                    .block-number{
+                        .header-block-number{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 140%;
+                            text-transform: uppercase;
+                            color: #ABABAB;
+                        }
+
+                        .number{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-transform: uppercase;
+                            color: #333333;
+                            margin-top: 2px;
+                        }
+
+                    }
+                    /******* Конец Артикул ********/
+
+
+                    /******* Цена ********/
+                    .block-price {
+                        margin-top: 20px;
+                        .header-block-price{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 140%;
+                            text-transform: uppercase;
+                            color: #ABABAB;
+                        }
+
+                        .price{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 140%;
+                            color: #333333;
+
+                            .rub{
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 140%;
+                                color: #333333;
+                            }
+                        }
+
+                    }
+                    /******* Конец Цена ********/
+
+                }
+                /******************* End Box Price *****************/
+
+
+
+                /******************* Box Availability *****************/
+                .box-availability{
+                    margin-left: 15px;
+                    .block-availability {
+
+                        .header-block-availability {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 140%;
+                            text-transform: uppercase;
+                            color: #ABABAB;
+                        }
+
+
+                        .not-availability{
+
+                        }
+
+                        .availability.not-availability{
+                            &:before{
+                                background: #F2F2F2;
+                            }
+                        }
+                        .availability.are-availability{
+                            &:before{
+                                background: #68A22E;
+                            }
+                        }
+
+
+                        .availability{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 140%;
+                            color: #333333;
+                            position: relative;
+                            padding-left: 19px;
+                            top: 2px;
+                            &:before{
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                width: 10px;
+                                height: 10px;
+                                border-radius: 10px;
+                                left: 0px;
+                                top: 5px;
+                            }
+
+                        }
+                    }
+
+
+                    .block-advice{
+                        margin-top: 21px;
+                        .header-block-advice{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 140%;
+                            text-transform: uppercase;
+                            color: #ABABAB;
+                        }
+
+                        .number-phone{
+                            padding-left: 20px;
+                            top: 7px;
+                            position: relative;
+                            .link-number-phone{
+                                text-decoration: none;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 17px;
+                                text-transform: uppercase;
+
+                                display: block;
+                                color: #333333;
+                                &:hover{
+                                    text-decoration: none;
+                                }
+                            }
+
+                            &:before{
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                background: url('/img/tpl_img/icon_phone_product_gray.png') no-repeat;
+                                width: 16px;
+                                height: 16px;
+                                left: 0px;
+                            }
+
+
+
+
+                        }
+
+                    }
+
+                }
+                /******************* End Box Availability *****************/
+
+
+                /************* Block Quick Order ****************/
+                .block-quick-order{
+                    margin-top: 20px;
+                    .header-block-quick-order{
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 140%;
+                        text-transform: uppercase;
+                        color: #ABABAB;
+                    }
+
+
+                    .block-form-number-phone-quick-order{
+                        margin-top: 10px;
+                        margin-left: -30px;
+                        height: 56px;
+                        .message-send-form{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-align: center;
+                        }
+
+                        /******** Form Quick Order *********/
+
+                        /******** Input Form Error ********/
+                        .form-number-phone-quick-order.has-error{
+                            .form-group-phone{
+                                .form-control-phone{
+                                    border-color: red;
+                                }
+
+                            }
+                        }
+                        /******** End Input Form Error ********/
+
+                        .form-number-phone-quick-order{
+                            position: relative;
+
+                            .invalid-feedback{
+                                font-family: Montserrat;
+                                font-style: normal;
+                            }
+
+                            .form-group-phone{
+
+
+                                .form-control-phone.is-invalid{
+                                    border-color: red;
+                                }
+                                .form-control-phone{
+                                    border-left: 1px solid #D8D8D8;
+                                    border-bottom: 1px solid #D8D8D8;
+                                    border-top: 1px solid #D8D8D8;
+                                    padding-left: 55px;
+                                    box-sizing: border-box;
+                                    filter: drop-shadow(0px 10px 20px rgba(85, 134, 35, 0.25));
+                                    border-top-left-radius: 50px;
+                                    border-bottom-left-radius: 50px;
+                                    width: 308px;
+                                    height: 56px;
+                                    background: url('/img/tpl_img/icon_phone_product_green.png') 10% 50% no-repeat;
+                                    outline: none;
+                                    position: relative;
+                                    z-index: 0;
+                                }
+
+
+
+                            }
+
+
+                            .btn-order{
+                                background: url(/img/tpl_img/icon_right_arrow.png) 78% 50% no-repeat, linear-gradient(180deg, #94DA4F 0%, #68A22E 100%);
+                                border-radius: 50px;
+                                width: 215px;
+                                height: 56px;
+                                border: none;
+                                outline: none;
+                                position: absolute;
+                                right: 29px;
+                                z-index: 1;
+
+                                &:hover{
+                                    cursor: pointer;
+                                    background: url('/img/tpl_img/icon_right_arrow.png') 79% 50% no-repeat, linear-gradient(180deg, #B5F972 0%, #74B039 100%);
+                                    box-shadow: 0px 5px 10px rgba(85, 134, 35, 0.5);
+                                }
+
+                                .text-order{
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: 800;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    color: #FFFFFF;
+                                    align-items: center;
+                                    text-align: center;
+                                    text-transform: uppercase;
+                                    position: relative;
+                                    left: -10px;
+                                }
+                            }
+
+
+                        }
+                        /******** End Form Quick Order *********/
+
+
+
+                    }
+
+
+                }
+                /************* End Block Quick Order ****************/
+            }
+
+
+
+
+
+
+        }
+        /*************** End Block Img Product *****************/
+
+
+
+        /***************** End Block Features Product *****************/
+
+
+
+        /********* Description Product ***********/
+        .description-product{
+            margin-top: 70px;
+            .header-description-product{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 140%;
+                letter-spacing: 0.12em;
+                text-transform: uppercase;
+                color: #333333;
+                padding-left: 2px;
+            }
+
+            .text-product{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                color: #333333;
+                margin-top: 16px;
+                padding-left: 2px;
+                h2{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 28px;
+                    color: #333333;
+                }
+                h3{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 26px;
+                    color: #333333;
+                }
+
+                a {
+                    text-decoration: underline;
+                    color: #A9A99A;
+                    &:hover {
+                        color: #333333;
+                        text-decoration: none;
+                    }
+                }
+                h4{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    color: #333333;
+                }
+                ul{
+                    li{
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 140%;
+                        color: #333333;
+                    }
+                }
+                *{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #333333;
+                }
+
+            }
+
+
+        }
+        /********* End Description Product ***********/
+
+    }
+
+    @import 'list_products';
+
+
+
+}

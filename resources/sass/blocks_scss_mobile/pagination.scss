@@ -1,0 +1,32 @@
+/***************************** DEFAULT STYLE PAGINATION ***********************/
+.pagination{
+
+
+    .page-item.disabled{
+        span.page-link{
+            font-family: Montserrat;
+            font-style: normal;
+            font-size: 11px;
+        }
+    }
+
+    .page-item{
+        span.page-link{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+
+        }
+
+        a.page-link{
+            font-family: Montserrat;
+            font-style: normal;
+            font-size: 11px;
+            color: #000000;
+        }
+
+    }
+
+}
+/***************************** END DEFAULT STYLE PAGINATION ***********************/

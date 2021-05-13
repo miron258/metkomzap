@@ -1,0 +1,33 @@
+/********** LIST PRODUCTS **********/
+.list-products{
+
+    .list-products-row{
+        margin-left: -30px;
+        margin-right: -30px;
+        /***** BOX PRODUCT *****/
+        .box-product {
+
+            .block-img-product{
+                width: inherit;
+                max-height: 168.88px;
+
+                .link-product.link-product-empty {
+                    width: inherit;
+                    max-height: 168.88px;
+                }
+
+            }
+
+            .name-product{
+                width: inherit;
+                text-align: center;
+            }
+
+        }
+        /***** END BOX PRODUCT *****/
+
+
+    }
+
+}
+/********** END LIST PRODUCTS **********/

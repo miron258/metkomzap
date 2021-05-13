@@ -1,0 +1,172 @@
+/******************************************* BLOCK ASK QUESTION **************************************/
+.block-ask-question {
+    margin-top: 27px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    .container {
+        padding: 0px;
+        margin: 0px;
+
+        .row {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+
+
+    /***** Block Banner Benefits *****/
+    .wrapper-block-banner-benefits {
+        order: 2;
+        margin-top: 22px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+        .block-banner-benefits {
+
+
+            .banner-benefits {
+                background: url(/img/tpl_img/mobile/bg_banner_ask_question_mobile.png) 50% 100% no-repeat, linear-gradient(180deg, #94DA4F 0%, #68A22E 100%);
+                height: 237px;
+                width: 100%;
+                margin-left: 0px;
+                border-radius: 0px;
+                /******** Row List Benefits *********/
+                .row-list-benefits {
+                    top: 33px;
+                    padding-left: 44px;
+
+                    .list-benefits {
+
+                        .item-benefits {
+                            font-size: 12px;
+
+                            &:not(:first-child) {
+                                margin-top: 22px;
+                            }
+
+                            &:before {
+
+                            }
+                        }
+                    }
+
+                }
+
+                /******** End Row List Benefits *********/
+
+
+            }
+
+        }
+    }
+
+    /***** End Block Banner Benefits *****/
+
+
+    /****** Block Form Question *******/
+    .wrapper-block-form-question {
+        order: 1;
+        padding-left: 0px;
+        padding-right: 0px;
+
+        .block-form-question {
+            padding-left: 35px;
+            padding-top: 0px;
+            padding-bottom: 26px;
+            border-radius: 0px;
+            width: 100%;
+            height: 100%;
+
+
+            left: 0px;
+            border-top: 10px solid #FFFFFF;
+            border-bottom: 10px solid #FFFFFF;
+            border-right: 10px solid #FFFFFF;
+            border-left: 10px solid #FFFFFF;
+
+            .header-block-form-question {
+                font-size: 19px;
+                margin-top: 43px;
+                line-height: 22px;
+
+                .green {
+                    font-size: 19px
+                }
+            }
+
+            /****** Form Question ******/
+            .form-question {
+                padding-top: 28px;
+
+                .form-group-phone {
+                    padding-right: 38px;
+                }
+
+                .form-group-email {
+                    padding-right: 38px;
+                }
+
+
+                /***** Form Group ****/
+                .form-group {
+                    padding-left: 0px;
+
+                    label {
+                        margin-bottom: 5px;
+                        font-size: 12px;
+                    }
+
+                    .form-control-plaintext {
+                        font-size: 14px;
+                        width: 100%;
+                        margin-top: 3px;
+                        padding-bottom: 5px;
+                    }
+
+                    .form-control-plaintext-phone {
+
+                    }
+
+                    .form-control-plaintext-email {
+
+                    }
+                }
+
+                /***** End Form Group ****/
+
+                /*** Btn Send Form Question ***/
+                .btn-send-form-question {
+                    margin-top: 23px;
+                    margin-left: 0px;
+                    width: 227px;
+                }
+
+                /*** End Btn Send Form Question ***/
+
+                .form-check-personal-data {
+                    margin-left: 9px;
+                    padding-left: 0px;
+
+                    .custom-checkbox {
+
+                        .custom-control-label {
+                            width: 180px;
+                        }
+                    }
+
+                }
+
+            }
+
+            /****** End Form Question ******/
+
+
+        }
+    }
+
+    /****** End Block Form Question *******/
+
+
+}
+/******************************************* END  BLOCK ASK QUESTION **************************************/

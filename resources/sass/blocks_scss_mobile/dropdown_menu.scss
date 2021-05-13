@@ -1,0 +1,24 @@
+.block-menu-catalog{
+
+    .text-menu-catalog {
+        font-size: 10px;
+        left: 46px;
+    }
+
+    .bt-menu-catalog{
+        top: -4px;
+        left: 5px;
+    }
+
+    .hidden-menu-catalog {
+        margin-top: 11px;
+        left: -15px;
+        min-width: 100%;
+
+        .list-menu-catalog {
+            padding-bottom: 32px;
+            border-bottom: 1px solid #E5E5DA;
+        }
+    }
+
+}

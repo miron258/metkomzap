@@ -1,0 +1,86 @@
+/******************************************* BLOCK CATALOG **************************************/
+.block-catalog {
+    margin-top: 0px;
+    padding-top: 75px;
+    padding-bottom: 49px;
+
+    .header-block-catalog {
+
+        h2 {
+            font-size: 20px;
+        }
+
+    }
+
+
+    /****** List Catalogs ******/
+    .list-catalogs {
+        margin-top: 2px;
+
+        .row-catalogs {
+            margin-top: 0px;
+
+            .wrapper-box-catalog {
+
+
+            }
+
+            &:not(:first-child) {
+                margin-top: 0px;
+            }
+
+            /******* Box Catalog *******/
+            .box-catalog {
+                margin-top: 24px;
+
+                &:nth-child(2n) {
+                    margin-top: 10px;
+                }
+
+                width: 100%;
+
+                .block-img-catalog {
+                    width: 100%;
+                    height: 121.4px;
+
+                    .link-catalog {
+
+                    }
+
+                }
+
+
+                .block-name-catalog {
+                    width: inherit;
+
+                    .num-catalog {
+                        font-size: 12px;
+                    }
+
+                    .name-catalog {
+                        white-space: normal;
+                        word-break: break-all;
+
+                        br {
+                            display: none;
+                        }
+
+                        font-size: 13px;
+                    }
+
+                }
+
+            }
+
+            /******* End Box Catalog *******/
+
+
+        }
+
+    }
+
+    /****** End List Catalogs ******/
+
+
+}
+/******************************************* END BLOCK CATALOG **************************************/

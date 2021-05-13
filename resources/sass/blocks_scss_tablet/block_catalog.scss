@@ -1,0 +1,76 @@
+/**************************** BLOCK CATALOGS ************************************/
+.block-catalog {
+    margin-top: 149px;
+
+    .header-block-catalog {
+        margin-left: 18px;
+
+        h2 {
+
+        }
+    }
+
+    /****** List Catalogs *******/
+    .list-catalogs {
+        margin-top: 43px;
+
+        .row-catalogs {
+            margin-left: -10px;
+            margin-right: -5px;
+
+            &:not(:fisrt-child) {
+                margin-top: 24px;
+            }
+
+            /**** Box Catalog ****/
+            .box-catalog {
+                width: 172px;
+                height: 126.4;
+
+                .block-img-catalog {
+                    width: 167px;
+                    height: 121.4px;
+                    overflow: hidden;
+                }
+
+                .block-name-catalog {
+                    width: 167px;
+                    margin-top: -6px;
+
+                    .num-catalog {
+                        line-height: 20px;
+                        font-size: 12px;
+                        position: relative;
+                        float: none;
+                        top: -3px;
+                        left: 0px;
+                        display: block;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+
+                    .name-catalog {
+                        font-size: 13px;
+                        line-height: 16px;
+                        float: none;
+                        display: block;
+                        padding-left: 0px;
+                        text-align: center;
+                        margin: 0 auto;
+                        white-space: normal;
+                    }
+
+                }
+
+            }
+
+            /**** End Box Catalog ****/
+
+        }
+
+    }
+
+    /****** End List Catalogs *******/
+
+}
+/**************************** END BLOCK CATALOGS ************************************/

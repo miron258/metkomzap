@@ -1,0 +1,108 @@
+.header, .header.header-search, .header.header-catalog, .header.header-product, .header.header-page {
+
+
+    .header-block-contacts {
+        border-bottom: none;
+        /*** Logo ***/
+        .logo {
+            left: 5px;
+            bottom: 2px;
+        }
+
+        /*** End Logo ***/
+
+        /*** Header Phone ***/
+        .header-phone {
+            padding-left: 12px;
+            top: 4px;
+
+            .header-link-phone {
+                font-size: 13px;
+            }
+
+        }
+
+        /*** End Header Phone ***/
+    }
+
+    .container-navigation {
+        background: #F7F7EF;
+        height: 40px;
+        padding-top: 12px;
+        margin-top: 8px;
+        .header-block-menu {
+            @import "dropdown_menu";
+
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+
+
+
+            /*** Block Search ***/
+            .wrapper-block-search {
+                padding-right: 0px;
+
+                .block-search {
+                    position: relative;
+                    right: 0px;
+                    top: initial;
+                    bottom: 16px;
+                    left: initial;
+
+                    .search-catalog {
+                        width: 106px;
+                        height: 40px;
+                        background: url(/img/tpl_img/search.png) #fff 12% 50% no-repeat;
+                        font-size: 11px;
+                        padding-left: 15px;
+                        -webkit-appearance: textfield;
+                        -webkit-box-sizing: content-box;
+                        -webkit-transition: all .5s;
+                        -moz-transition: all .5s;
+                        transition: all .5s;
+                        font-family: inherit;
+                        font-size: 100%;
+
+                        &::placeholder {
+
+                        }
+                        &:focus {
+                            width: 140px;
+                            background: url(/img/tpl_img/search.png) #fff 6% 50% no-repeat;
+                            padding-left: 35px;
+                        }
+                        &:-moz-placeholder {
+                            color: #999;
+                        }
+                        &::-webkit-input-placeholder {
+                            color: #999;
+                        }
+
+
+
+                    }
+                }
+            }
+
+            /*** End Block Search ***/
+
+
+            //.block-menu-catalog {
+            //    left: 47px;
+            //    top: 2px;
+            //    width: max-content;
+            //
+            //    .bt-menu-catalog {
+            //        font-size: 10px;
+            //    }
+            //}
+
+
+        }
+    }
+
+}
+
+

@@ -1,0 +1,38 @@
+/********* Block View Catalog **********/
+.block-view-catalog {
+    padding-bottom: 32px;
+
+    .block-catalog.inner-view-catalog {
+        padding-bottom: 0px;
+
+
+        .header-block-catalog {
+            margin-left: 18px;
+
+            h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 120%;
+                color: #333333;
+
+                &:after {
+
+                }
+            }
+
+        }
+
+        /********* List Catalogs *********/
+        .list-catalogs {
+            margin-top: 5px;
+        }
+
+        /********* End List Catalogs *********/
+
+    }
+
+
+}
+/********* End Block View Catalog **********/

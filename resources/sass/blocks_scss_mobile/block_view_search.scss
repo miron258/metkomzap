@@ -1,0 +1,52 @@
+/************************************************* PAGE SEARCH ***************************************************/
+
+.block-view-search {
+    padding-bottom: 0px;
+
+    .header-block-view-search {
+
+        h1, h2 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 120%;
+            color: #333333;
+
+            &:after {
+
+            }
+        }
+
+    }
+
+
+    .block-list-products.inner-view-search {
+        padding-top: 3px;
+        padding-bottom: 23px;
+
+        .header-block-list-products {
+
+            h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 120%;
+                color: #333333;
+
+
+                &:after {
+
+                }
+            }
+        }
+
+        @import "mobile/list_products";
+
+
+    }
+
+
+}
+/************************************************* END PAGE SEARCH ***************************************************/

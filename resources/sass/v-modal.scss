@@ -1,0 +1,399 @@
+/**************** v modal callback ****************/
+.v-modal-callback{
+
+    /*    width: 470px;
+        height: 496px;*/
+
+    .v-modal-dialog {
+        background: #F2F2F2;
+        border: 10px solid #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 30px 70px rgba(0, 0, 0, 0.11);
+        border-radius: 5px;
+        position: relative;
+        width: 470px;
+        height: 496px;
+        padding-left: 72px;
+        padding-top: 40px;
+
+        .v-modal-callback-close{
+            background: url('/img/tpl_img/close_modal.png') no-repeat;
+            width: 19px;
+            height: 19px;
+            outline: none;
+            border: none;
+            position: relative;
+            bottom: 25px;
+            left: 8px;
+            box-shadow: none;
+            float: right;
+        }
+
+        //Header V-Modal Callback
+        .header-v-modal-callback{
+            .top-header{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                color: #333333;
+            }
+            .bottom-header{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 25px;
+                color: #333333;
+                position: relative;
+                bottom: 8px;
+            }
+
+        }
+
+        .text-v-modal-callback{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            color: #959595;
+            margin-top: 15px;
+        }
+
+        //Form V-Modal Callback
+        .form-v-modal-callback{
+            margin-top: 28px;
+
+            .message-form-v-modal-callback{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                color: #959595;
+            }
+
+            .form-callback{
+
+                .form-group-btn-send{
+
+                }
+
+                .form-group{
+
+                    .form-control{
+                        border: none;
+                        border-bottom: 1px solid #C4C4C4;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 20px;
+                        color: #4F4F4F;
+                        background: #F2F2F2;
+                        box-shadow: none;
+                        border-radius: 0px;
+                        padding-left: 6px;
+                        padding-top: 8px;
+                    }
+
+                  
+                    .btn-send-callback{
+                        
+                        &:disabled{
+                            opacity: 0.65 !important;
+                        }
+                        
+                        box-shadow: 0px 10px 20px rgba(85, 134, 35, 0.5);
+                        border-radius: 50px;
+                        width: 215px;
+                        height: 56px;
+                        border: none;
+                        align-items: center;
+                        text-align: center;
+                        position: relative;
+                        margin-left: 0px;
+                        margin-top: 28px;
+                        background: url(/img/tpl_img/icon_right_arrow.png) 79% 50% no-repeat, linear-gradient(180deg, #94DA4F 0%, #68A22E 100%);
+
+                        &:hover{
+                            cursor: pointer;
+                            background: url("/img/tpl_img/icon_right_arrow.png") 79% 50% no-repeat, linear-gradient(180deg, #B5F972 0%, #74B039 100%);
+                            box-shadow: 0px 5px 10px rgba(85, 134, 35, 0.5);
+                        }
+
+                        .text-btn-send-callback{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            position: relative;
+                            right: 10px;
+                        }
+
+                    }
+
+
+                }
+
+
+                .form-group-name{
+
+                }
+
+                .form-group-phone{
+
+                }
+
+
+
+
+
+            }
+
+        }
+        //End Form V-Modal Callback
+    }
+
+}
+/**************** end v modal callback ****************/
+
+// -------------------------------------
+// Settings
+// -------------------------------------
+
+
+$v-modal-default-theme:    true !default;
+$v-modal-use-flexbox:      true !default;
+
+
+// Modal
+// -------------------------------------
+
+$v-modal-spacing:          20px !default;
+
+$v-modal-zindex:           1000 !default;
+$v-modal-backdrop:         rgba(0,0,0, 0.5) !default;
+
+$v-dialog-background:      white !default;
+$v-dialog-border-radius:   2px   !default;
+
+$v-dialog-sm-width:        340px !default;
+$v-dialog-md-width:        560px !default;
+$v-dialog-lg-width:        780px !default;
+
+$v-close-color:            #2196F3 !default;
+$v-close-hover-color:      #F44336 !default;
+$v-close-hover-duration:   0.25s   !default;
+
+$v-modal-fade-animation-duration:    0.25s !default;
+$v-dialog-enter-animation-duration:  0.5s  !default;
+/* Base
+ ***************************************/
+
+
+.v-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: $v-modal-zindex;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: $v-modal-backdrop;
+    padding: $v-modal-spacing * 2 $v-modal-spacing;
+
+    .v-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.v-dialog {
+    display: block;
+    position: relative;
+    pointer-events: auto;
+    background: $v-dialog-background;
+    z-index: 0;
+    min-width: 240px;
+    outline: 0;
+    max-width: $v-dialog-md-width;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+.v-dialog[middle] {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.v-dialog[fit] {
+    width: 100%;
+}
+
+.v-dialog[small] {
+    max-width: $v-dialog-sm-width;
+
+    @media (min-width: $v-dialog-sm-width) {
+        min-width: $v-dialog-sm-width;
+    }
+}
+
+.v-dialog[medium] {
+    max-width: $v-dialog-md-width;
+
+    @media (min-width: $v-dialog-md-width) {
+        min-width: $v-dialog-md-width;
+    }
+}
+
+.v-dialog[large] {
+    max-width: $v-dialog-lg-width;
+
+    @media (min-width: $v-dialog-lg-width) {
+        min-width: $v-dialog-lg-width;
+    }
+}
+
+.v-close {
+    display: inline-block;
+    z-index: 10;
+    cursor: pointer;
+    outline: 0;
+    user-select: none;
+
+    &:hover,
+        &:focus {
+        outline: 0;
+    }
+}
+
+[v-modal-open] {
+    overflow: hidden;
+}
+
+@if $v-modal-use-flexbox {
+    .v-modal {
+        display: flex;
+        justify-content: center;
+    }
+
+    .v-dialog {
+        align-self: flex-start;
+    }
+
+    .v-dialog[middle] {
+        align-self: center;
+    }
+}
+@else {
+    .v-dialog {
+        margin: 0 auto;
+    }
+    .v-dialog[middle] {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+
+@if $v-modal-default-theme {
+    /* Theme: default
+     ***************************************/
+
+    .vModal--default {
+        transition: opacity $v-modal-fade-animation-duration;
+
+        .v-dialog {
+            will-change: transform;
+            padding: $v-modal-spacing;
+            border-radius: $v-dialog-border-radius;
+            animation: vDialog-enter $v-dialog-enter-animation-duration;
+        }
+
+        .v-close {
+            width: 40px;
+            height: 40px;
+
+            &::after,
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 12px;
+                height: 1px;
+                width: 16px;
+                transform-origin: 50% 50%;
+            }
+
+            &::before {
+                transform: rotate(-45deg);
+            }
+            &::after {
+                transform: rotate(45deg);
+            }
+
+            &::after,
+            &::before {
+                background-color: $v-close-color;
+                transition: background-color $v-close-hover-duration;
+            }
+
+            &:hover,
+                &:focus {
+                &::after,
+                &::before {
+                    background-color: $v-close-hover-color;
+                }
+            }
+        }
+
+        &.ng-enter {
+            opacity: 0;
+        }
+        &.ng-enter-active {
+            opacity: 1;
+        }
+
+        &.ng-leave {
+            opacity: 1;
+        }
+        &.ng-leave-active {
+            opacity: 0;
+        }
+    }
+
+
+    /* Theme: default (animations) */
+    @keyframes vDialog-enter {
+        0% {
+            transform: translate3d(0, 30px, 0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+}
+
+@if $v-modal-default-theme and $v-modal-use-flexbox == false {
+    .vModal--default v-dialog[middle] {
+        animation: vDialog-enterAlt $v-dialog-enter-animation-duration;
+    }
+
+    @keyframes vDialog-enterAlt {
+        0% {
+            transform: translate3d(0, 30px, 0) translateY(-50%);
+        }
+        100% {
+            transform: translate3d(0, 0, 0) translateY(-50%);
+        }
+    }
+}

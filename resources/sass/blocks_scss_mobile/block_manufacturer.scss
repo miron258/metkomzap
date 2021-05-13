@@ -1,0 +1,55 @@
+/******************************************* BLOCK MANUFACTURER **************************************/
+.block-manufacturer {
+    padding-top: 46px;
+
+    .header-block-manufacturer {
+        h2 {
+            font-size: 20px;
+
+            &:after {
+                left: 4px;
+            }
+
+        }
+    }
+
+
+    /*********** Block Slider Manufacturer *********/
+    .block-slider-manufacturer {
+        margin-top: 70px;
+        /******* Owl Carousel ******/
+        .owl-carousel {
+
+            .owl-dots {
+                left: 4px;
+                top: -53px;
+
+                .owl-dot {
+
+                    &:not(:first-child) {
+                        margin-left: 6px;
+                    }
+
+                    span {
+
+                    }
+                }
+
+                .owl-dot.active {
+                    span {
+
+                    }
+                }
+
+            }
+
+        }
+
+        /******* End Owl Carousel ******/
+
+
+    }
+
+
+}
+/******************************************* END BLOCK MANUFACTURER**************************************/

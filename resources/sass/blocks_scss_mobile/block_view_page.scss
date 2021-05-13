@@ -1,0 +1,62 @@
+.block-view-page {
+    padding-top: 64px;
+    padding-bottom: 10px;
+
+    .header-block-view-page {
+        h1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 120%;
+            color: #333333;
+
+            &:after {
+                bottom: -8px;
+            }
+        }
+    }
+
+    .description-page {
+        margin-top: 33px;
+        h2{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 25px;
+            color: #333333;
+        }
+        h3{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            color: #333333;
+        }
+        h4{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 25px;
+            color: #333333;
+        }
+
+        *{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #333333;
+        }
+        p {
+
+        }
+    }
+
+
+}
+/**************************** END STYLE PAGE SINGLE ************************************/

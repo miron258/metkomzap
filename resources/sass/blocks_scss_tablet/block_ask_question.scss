@@ -1,0 +1,106 @@
+/**************************** BLOCK ASK QUESTION ************************************/
+.block-ask-question {
+    margin-top: 63px;
+
+    .header-block-ask-question {
+
+        h2 {
+
+        }
+    }
+
+    /******* Block Banner Benefits *******/
+    .block-banner-benefits {
+
+
+        .banner-benefits {
+            .row-list-benefits {
+                top: 121px;
+                padding-left: 72px;
+            }
+
+            margin-left: 7px;
+            /*                width: 353px;*/
+            width: 100%;
+            height: 554px;
+            background: url("/img/tpl_img/bg_banner_ask_question.png") 50% 100% no-repeat, linear-gradient(180deg, #94DA4F 0%, #68A22E 100%);
+        }
+
+
+    }
+
+    /******* End Block Banner Benefits *******/
+
+
+    /******* Block Form Question *******/
+    .wrapper-block-form-question {
+        padding-right: 0px;
+
+        .block-form-question {
+            /*            width: 369px;*/
+            width: 100%;
+            height: 508px;
+            padding-left: 29px;
+            left: -23px;
+
+            .header-block-form-question {
+                font-size: 24px;
+                margin-top: 38px;
+                line-height: 29px;
+
+                br {
+                    display: none;
+                }
+
+                .green {
+
+                }
+
+            }
+
+
+            /***** Form Question *****/
+            .form-question {
+                padding-top: 23px;
+
+                .form-group-email {
+                    margin-left: 0px;
+                }
+
+                .form-group {
+
+                    label {
+                        font-size: 12px;
+                    }
+
+                    .form-control-plaintext {
+
+                    }
+
+                }
+
+
+                .form-check-personal-data {
+                    margin-left: 4px;
+
+                    .custom-checkbox {
+                        .custom-control-label {
+                            width: 300px;
+                            display: block;
+                        }
+                    }
+                }
+
+            }
+
+            /***** End Form Question *****/
+
+
+        }
+    }
+
+    /******* End Block Form Question *******/
+
+
+}
+/**************************** END BLOCK ASK QUESTION ************************************/

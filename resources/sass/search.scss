@@ -1,0 +1,86 @@
+.block-ask-question.inner-search{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.header.header-search{
+
+    .header-block-contacts{
+        padding-top: 30px;
+    }
+    .header-block-menu{
+        margin-bottom: -13px
+    }
+}
+
+
+.block-view-search{
+    background: #F2F2F2;
+    padding-bottom: 106px;
+    padding-top: 72px;
+
+    @import 'list_products';
+
+    
+     /************** Видоизмененные стили для вывода списка товаров из каталога **************/
+    .block-list-products.inner-view-search{
+        padding-top: 15px;
+        padding-bottom: 0px;
+        /******************* Список товаров в каталоге видоизмененные стили ********************/
+       
+
+        .list-products {
+            
+            .list-products-row{
+                &:not(:first-child){
+                    margin-top: 50px;     
+                }
+
+            }
+        }
+        /******************* Конец Список товаров в каталоге видоизмененные стили ********************/
+
+
+    }
+    /************** Конец Видоизмененные стили для вывода списка товаров из каталога **************/
+    
+    
+
+    .header-block-view-search{
+
+
+        h1{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 120%;
+            color: #333333;
+            position: relative;
+            &:after{
+                content: "";
+                display: block;
+                position: absolute;
+                background: #68A22E;
+                width: 40px;
+                height: 4px;
+                bottom: -13px;
+                left: 3px;
+            }
+        }
+    }
+
+    /****** Searching Results *****/
+    .searching-results{
+/*        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #333333;
+        margin-top: 95px;*/
+
+    }
+    /****** End Searching Results *****/
+
+
+}

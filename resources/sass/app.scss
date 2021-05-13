@@ -1,0 +1,33 @@
+// Fonts
+/*@import url('https://fonts.googleapis.com/css?family=Nunito');*/
+// Mixins
+@import 'mixins';
+@import 'v-modal';
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// Main Page
+@import 'main';
+//Product Page
+@import 'product';
+//Catalogs and Catalogs Page
+@import 'catalog';
+//Style Inner Page View
+@import 'page';
+
+@import 'search';
+
+
+
+@import './plugins/owl_carousel/owl.carousel.scss';
+@import './plugins/owl_carousel/owl.theme.default.scss';
+
+// Media Queries 992
+@import 'media_queries_992';
+// Media Queries 768
+@import 'media_queries_768';
+// Media Queries 320
+@import 'media_queries_320';
+
+

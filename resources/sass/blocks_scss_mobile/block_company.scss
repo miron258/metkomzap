@@ -1,0 +1,137 @@
+/******************************************* BLOCK COMPANY **************************************/
+.block-company {
+    margin-top: 31px;
+
+    .header-block-company {
+        padding-left: 15px;
+        margin-left: 0px;
+
+        h2 {
+            font-size: 20px;
+
+            &:after {
+                left: 2px;
+            }
+        }
+    }
+
+
+    /************* Description Block Company **************/
+    .description-block-company {
+        margin-top: 21px;
+        margin-left: 0px;
+        padding-right: 0px;
+
+        /***** Top Description ****/
+        .top-description {
+
+            .top-paragraph {
+                font-size: 14px;
+                line-height: 20px;
+
+                br {
+                    display: none;
+                }
+            }
+
+            .bottom-paragraph {
+                margin-top: 20px;
+                font-size: 14px;
+                line-height: 20px;
+
+                br {
+                    display: none;
+                }
+            }
+
+        }
+
+        /***** End Top Description ****/
+
+
+        /**** List Benefits ****/
+        .list-benefits {
+            padding-left: 30px;
+            margin-top: 26px;
+
+            /*** Item Benefits ***/
+            .item-benefits {
+                font-size: 14px;
+            }
+
+            /*** End Item Benefits ***/
+
+
+        }
+
+        /**** End List Benefits ****/
+
+
+    }
+
+    /************* End Description Block Company **************/
+
+
+    /********* Banaers Block Company ***********/
+    .banners-block-company {
+        margin-top: 9px;
+        /**** Top Banner ****/
+        .top-banner {
+            background: url(/img/tpl_img/mobile/banner_1_mobile.png);
+            width: 280px;
+            height: 246px;
+
+            .text-banner {
+                top: 50px;
+                font-size: 16px;
+            }
+
+            .block-link-banner {
+                left: 28px;
+                bottom: 47px;
+
+                .link-banner {
+                    font-size: 14px;
+                }
+
+            }
+
+        }
+
+        /**** End Top Banner ****/
+
+
+        /**** Bottom Banner ****/
+        .bottom-banner {
+            background: url(/img/tpl_img/mobile/banner_2_mobile.png);
+            width: 280px;
+            height: 246px;
+            right: 0px;
+            left: 5px;
+            margin-top: 18px;
+
+            .text-banner {
+                top: 50px;
+                font-size: 16px;
+            }
+
+            .block-link-banner {
+                left: 28px;
+
+                .link-banner {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        /**** End Bottom Banner ****/
+
+    }
+
+    /********* End Banners Block Company ***********/
+
+
+}
+
+
+/******************************************* END BLOCK COMPANY **************************************/

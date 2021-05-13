@@ -1,0 +1,26 @@
+/************** Mobile Breadcrumbs ***************/
+.block-breadcrumbs {
+
+    .breadcrumb {
+        padding: 0px;
+        padding-left: 35px;
+
+        .breadcrumb-item.active {
+
+        }
+
+        .breadcrumb-item {
+
+            &:not(:first-child) {
+                padding-left: 0px;
+                margin-left: 0px;
+            }
+
+            a {
+
+            }
+        }
+    }
+
+}
+/************** End Mobile Breadcrumbs ***************/
